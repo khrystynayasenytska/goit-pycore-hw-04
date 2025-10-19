@@ -51,7 +51,7 @@ def main():
     # Check if command line argument is provided
     if len(sys.argv) < 2:
         # Use testenv directory as default
-        directory_path = Path(r"c:\Users\Tiara\Documents\repos\goit-pycore-hw-04\testenv")
+        directory_path = Path(r"")
     else:
         # Get path from command line arguments
         directory_path = Path(sys.argv[1])
