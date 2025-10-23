@@ -48,7 +48,7 @@ def total_salary(path):
             # Avg salary
             average = total / count
             
-            return (int(total), int(average))
+            return (total, average)
             
     except FileNotFoundError:
         print(f"The file '{path}' was not found")
@@ -64,4 +64,4 @@ def total_salary(path):
     
 
 total, average = total_salary("c:/Users/Tiara/Documents/repos/goit-pycore-hw-04/salary_task1.txt")
-print(f"Total salary: {total}, Avg salary: {average}")
+print(f"Total salary: {total:.2f}, Avg salary: {average:.2f}")
